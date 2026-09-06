@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Edytor_Tabeli</class>
+ <widget class="QDialog" name="Edytor_Tabeli">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>190</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Shell Dlg 2</family>
+    <pointsize>8</pointsize>
+    <italic>true</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Edytor_Tabeli</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>572</x>
+     <y>-19</y>
+     <width>23</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ser.</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="title_text_right_2">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>50</y>
+     <width>246</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>6</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="title_text_left">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>28</y>
+     <width>186</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #800020;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="selftext_items1_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>31</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Opis.</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tylko_na_form_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>28</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="selftext_items2">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>9</y>
+     <width>121</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Linia / Gniazdo. </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="selftext_items3_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>9</y>
+     <width>41</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Spec.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zamyka_edycje_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>158</y>
+     <width>280</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>8</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Zamknij</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="title_colors">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>120</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Kolor Belki</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="title_text_right_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>75</y>
+     <width>231</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>6</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ignoruj wpisy z kolumny do Time Line</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="header_line4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>93</y>
+     <width>241</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>6</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ignoruj wpisy z pola kolumny do Time Line</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

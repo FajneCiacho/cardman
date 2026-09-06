@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Hover_Karty</class>
+ <widget class="QDialog" name="Hover_Karty">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>270</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Shell Dlg 2</family>
+    <pointsize>6</pointsize>
+    <italic>true</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Hover_Karty</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>29</y>
+     <width>85</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Detal.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>572</x>
+     <y>-19</y>
+     <width>23</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ser.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>8</y>
+     <width>51</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nazwa.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>71</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Klient.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>85</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Szt.                </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>85</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Uruchomiono.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>85</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Zakonczenie.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>85</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ser.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Id_TimeLine">
+   <property name="geometry">
+    <rect>
+     <x>96</x>
+     <y>180</y>
+     <width>78</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Time Line</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Id_NotesKarty">
+   <property name="geometry">
+    <rect>
+     <x>182</x>
+     <y>180</y>
+     <width>78</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Notes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Id_obraz">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>78</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Obraz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_item1">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>8</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>6</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_item3">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>50</y>
+     <width>151</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_item0">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>110</y>
+     <width>151</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_item2">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>29</y>
+     <width>151</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_item4">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>70</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Nowa_zmienna_Uruch">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>90</y>
+     <width>151</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nowa_zmiena_kienID">
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>130</y>
+     <width>151</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>51</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="text">
+    <string>Uwagi:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tylko_na_form">
+   <property name="geometry">
+    <rect>
+     <x>66</x>
+     <y>150</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>6</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zamyka_podglad">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>218</y>
+     <width>251</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Zamknij</string>
+   </property>
+  </widget>
+  <zorder>nowa_zmiena_kienID</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>Id_TimeLine</zorder>
+  <zorder>Id_NotesKarty</zorder>
+  <zorder>Id_obraz</zorder>
+  <zorder>text_item1</zorder>
+  <zorder>text_item3</zorder>
+  <zorder>text_item0</zorder>
+  <zorder>text_item2</zorder>
+  <zorder>text_item4</zorder>
+  <zorder>Nowa_zmienna_Uruch</zorder>
+  <zorder>label_27</zorder>
+  <zorder>tylko_na_form</zorder>
+  <zorder>Zamyka_podglad</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
